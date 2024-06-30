@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 
 const About = () => {
     return (
@@ -31,10 +31,21 @@ const About = () => {
                     fontSize: { xs: '1rem', md: '1.5rem' },
                     marginLeft: { xs: '1rem', md: '4rem' },
                     marginRight: { xs: '1rem', md: '4rem' },
+                    marginBottom: { xs: '1rem', md: '4rem' }
                 }}
             >
                 My name is Mariraj, and I hold a Bachelor of Engineering degree in Electrical and Electronics Engineering from Mepco Schlenk Engineering College, Sivakasi. I have further honed my skills by completing a Front End Developer course at the Sharpener Learning Platform. As a dedicated front end developer, I am proficient in JavaScript, HTML, CSS, React, Next.js, and Redux. I am currently seeking a front end developer position where I can leverage my technical expertise and passion for web development to contribute to dynamic and innovative projects.
             </Typography>
+            <Button
+                variant="contained"
+                color="primary"
+                sx={{ bgcolor: '#009688', '&:hover': { bgcolor: '#00796b' } }}
+                href="https://www.snapit.tech/mariraj/mariraj-b"
+                target="_blank"
+                rel="noopener"
+            >
+                View Resume
+            </Button>
         </Box>
     );
 };
