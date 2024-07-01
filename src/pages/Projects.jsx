@@ -3,23 +3,23 @@ import { Box, Typography, Link, List, ListItem, ListItemText } from '@mui/materi
 
 const projects = [
     {
-        title: "Ecommerce Website",
+        title: "The Artistic Aura",
         github: "https://github.com/maariraaj/ecomWeb",
-        deployed: "https://ecom-web-raj.vercel.app/",
+        deployed: "https://the-artistic-aura.vercel.app/",
         description: "E-commerce website is an application that gives users the option to see different products and add them to the cart, manipulating cart data. User needs to log in to access their cart and users can see the product details as well. React.js library for creating this application, Firebase for storing data and authentiction, React Router for page navigation , GitHub for version control, Vercel for deployment.",
         technologies: ["React", "Firebase", "Bootstrap", "Vercel"],
     },
     {
-        title: "Mail Box",
+        title: "Pigeon Mail",
         github: "https://github.com/maariraaj/mailbox",
-        deployed: "https://mailbox-raj.vercel.app/",
+        deployed: "https://pigeonmail.vercel.app/",
         description: "Mailbox client is an application where users can send and receive mail. Each user has their own account and users cannot access other users data. Integrated react-draft-wysiwyg editor for composing new email. React.js library for creating this application, Redux for state management, GitHub for version control, FireBase for storing data and authenticaton, Vercel for deployment.",
         technologies: ["React", "Redux", "Firebase", "Bootstrap", "Vercel"],
     },
     {
-        title: "Expense Tracker",
+        title: "Piggy Banker",
         github: "https://github.com/maariraaj/expenseTracker",
-        deployed: "https://exp-tracker-raj.vercel.app/",
+        deployed: "https://the-piggy-banker.vercel.app/",
         description: "Expense Tracker allows user to track their expenses and premium users can get extra benefits like provision to download their expense in an excel format(.csv) and change theme feature. Users expenses data is protected using authentication method. React.js libraray for creating this website, Redux for state management, GitHub for version control , FireBase for storing data and authentication, Vercel for deployment.",
         technologies: ["React", "Redux", "Firebase", "Bootstrap", "Vercel"],
     },
